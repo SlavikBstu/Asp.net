@@ -1,0 +1,12 @@
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\Data.dll.config
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\Data.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\Data.pdb
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\EntityFramework.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\EntityFramework.xml
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\ru\EntityFramework.resources.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\obj\Debug\Data.dll
+D:\Visual Studio\Программирование интернет-серверов\PhoneCatalog\Data\obj\Debug\Data.pdb
