@@ -1,0 +1,41 @@
+﻿@model PhoneCatalog.Models.clients
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <p>Номер телефона: @Html.TextBoxFor(x => x.Number)</p>
+    <p>Фамилия: @Html.TextBoxFor(x => x.Surname)</p>
+    <p>Имя: @Html.TextBoxFor(x => x.Firstname)</p>
+    <p>Отчество: @Html.TextBoxFor(x => x.Middlename)</p>
+    <p>Дата рождения: @Html.TextBoxFor(x => x.Bday)</p>
+
+    <input type="submit" value="Добавить" />
+
+    <table>
+        <tr>
+            <td><p>Телефон </p></td>
+            <td><p>Фамилия </p></td>
+            <td><p>Имя </p></td>
+            <td><p>Отчество </p></td>
+            <td><p>Дата рождения </p></td>
+
+            <td></td>
+        </tr>
+        @foreach (var b in ViewBag.clients)
+                {
+            <tr>
+                <td><p>@b.Number</p></td>
+                <td><p>@b.Surname</p></td>
+                <td><p>@b.Firstname</p></td>
+                <td><p>@b.Middlename</p></td>
+                <td><p>@b.Bday</p></td>
+                <td><p><a href="/Home/Edit/@b.Number">Редактировать</a></p></td>
+                <td><p><a href="/Home/ClientRemove/@b.Number">Удалить</a></p></td>
+            </tr>
+        }
+    </table>
+}
